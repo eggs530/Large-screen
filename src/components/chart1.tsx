@@ -1,19 +1,15 @@
 import React, {useEffect, useRef} from 'react';
 import * as echarts from 'echarts';
+import {px} from '../shared/px';
+import {baseEchartOptions} from '../shared/base-echart-options';
 
-const px = (n) => n / 2420 * (window as any).pageWidth;
+
 export const Chart1 = () => {
     const divRef = useRef(null);
     useEffect(() => {
         const myChart = echarts.init(divRef.current);
         myChart.setOption({
-            textStyle: {
-                fontSize: px(12),
-                color: '#79839e'
-            },
-            title: {
-                text: ''
-            },
+           ...baseEchartOptions,
             tooltip: {},
             xAxis: {
                 data: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
@@ -30,12 +26,6 @@ export const Chart1 = () => {
                         }
                     }
                 }
-            },
-            grid: {
-                x: px(40),
-                y: px(40),
-                x2: px(40),
-                y2: px(40)
             },
             yAxis: {
                 splitLine: {show: false},
