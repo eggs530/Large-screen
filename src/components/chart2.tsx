@@ -18,7 +18,9 @@ export const Chart2 = () => {
             },
             xAxis: {
                 type: 'value',
-                boundaryGap: [0, 0.01]
+                boundaryGap: [0, 0.01],
+                splitLine: {show: false},
+                axisLabel: {show: false}
             },
             yAxis: {
                 type: 'category',
