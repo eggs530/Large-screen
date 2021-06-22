@@ -95,7 +95,7 @@
 
     }
 
-    .管辖统计, .破获排名, .发案趋势,.案发时段,.成果{
+    .管辖统计, .破获排名, .发案趋势,.案发时段,.成果, .籍贯{
       height: px(315);
       display: flex;
       flex-direction: column;
@@ -164,6 +164,9 @@
 
         }
       }
+    }
+    .籍贯 {
+      height: px(753); background: transparent;
     }
   }
 }
