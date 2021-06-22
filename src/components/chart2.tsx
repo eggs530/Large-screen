@@ -52,8 +52,8 @@ export const Chart2 = () => {
             <h2>案件破获排名</h2>
             <div ref={divRef} className="chart"/>
             <div className="legend">
-                <span className="first"/> 破案排名1
-                <span className="second"/> 破案排名2
+                <span className="first"/> 刑事排名
+                <span className="second"/> 民事排名
             </div>
         </div>
     );
