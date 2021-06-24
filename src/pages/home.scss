@@ -185,6 +185,7 @@
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
+          padding-right: px(11);
 
           > span {
             display: inline-block;
@@ -225,7 +226,7 @@
       }
 
       &-图2 {
-        width: px(360);
+        width: px(296);
         flex-shrink: 0;
 
         .legend {
