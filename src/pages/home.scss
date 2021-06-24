@@ -180,7 +180,7 @@
             width: px(16);
             height: px(10);
             border-radius: px(2);
-            margin: 0 px(10);
+            margin: 0 px(5);
           }
 
           .male {
@@ -214,11 +214,21 @@
       }
 
       &-图2 {
-        width: px(290);
+        width: px(360);
         flex-shrink: 0;
 
         .legend {
           justify-content: flex-start;
+        }
+      }
+
+      &-图3 {
+        border: 1px solid #08397d;
+
+        h3 {
+          font-size: px(20);
+          color: #7ab6db;
+          margin-top: px(6);
         }
       }
     }
