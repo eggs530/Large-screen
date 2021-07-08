@@ -1,10 +1,14 @@
 {
   "name": "big-screen-demo-01",
   "version": "0.0.0",
+  "homepage":"https://eggs530.github.io/Large-screen-website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy:gitee": "sh scripts/deploy_gitee.sh",
+    "deploy:github": "sh scripts/deploy_github.sh",
+    "deploy": "yarn deploy:github && yarn deploy:gitee"
   },
   "dependencies": {
     "echarts": "5.0.2",
