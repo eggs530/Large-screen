@@ -1,7 +1,6 @@
 {
   "name": "big-screen-demo-01",
   "version": "0.0.0",
-  "homepage":"https://eggs530.github.io/Large-screen-website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
